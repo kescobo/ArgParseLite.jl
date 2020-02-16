@@ -1,6 +1,6 @@
 name = "ArgParseLite"
 uuid = "14f05705-a79b-436f-9555-dabef2f39a84"
-authors = ["Kevin Bonham", "PhD"]
+authors = ["Kevin Bonham, PhD"]
 version = "0.1.0"
 
 [compat]
