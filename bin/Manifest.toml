@@ -6,6 +6,21 @@ git-tree-sha1 = "14d5789a99e6bea3e258d668ec09359a9feaf2d1"
 uuid = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 version = "0.6.2"
 
+[[ArgParse2]]
+deps = ["OrderedCollections", "TextWrap"]
+git-tree-sha1 = "d58fd6e128a711b24111cb5f02f5c81be53b7610"
+repo-rev = "master"
+repo-url = "https://github.com/kmsquire/ArgParse2.jl"
+uuid = "1f1e2b29-1d7f-49d8-813e-55fc6f50152b"
+version = "0.1.0"
+
+[[ArgParseLite]]
+git-tree-sha1 = "5b56c6c067fc591c4bf928621f5e33c1ff3d9363"
+repo-rev = "master"
+repo-url = "."
+uuid = "14f05705-a79b-436f-9555-dabef2f39a84"
+version = "0.1.0"
+
 [[Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
@@ -51,8 +66,14 @@ uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 [[Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 
+[[OrderedCollections]]
+deps = ["Random", "Serialization", "Test"]
+git-tree-sha1 = "c4c13474d23c60d20a67b217f1d7f22a40edf8f1"
+uuid = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+version = "1.1.0"
+
 [[Pkg]]
-deps = ["Dates", "LibGit2", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
+deps = ["Dates", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Printf]]

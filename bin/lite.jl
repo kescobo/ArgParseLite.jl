@@ -1,6 +1,5 @@
 using ArgParseLite
 
-
 function main()
     my_args = Arguments()
 
@@ -11,7 +10,7 @@ function main()
 
 
     println("Parsed args:")
-    for (arg,val) in parse_args(my_args)
+    for (arg,val) in ArgParseLite.parse_args(my_args)
         println("  $arg  =>  $val")
     end
 end

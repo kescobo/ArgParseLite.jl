@@ -1,2 +1,4 @@
 [deps]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+ArgParse2 = "1f1e2b29-1d7f-49d8-813e-55fc6f50152b"
+ArgParseLite = "14f05705-a79b-436f-9555-dabef2f39a84"
